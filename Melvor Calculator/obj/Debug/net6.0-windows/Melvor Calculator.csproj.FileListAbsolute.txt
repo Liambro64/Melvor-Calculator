@@ -1,0 +1,34 @@
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.csproj.AssemblyReference.cache
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor_Calculator.Form1.resources
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.csproj.GenerateResource.cache
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.AssemblyInfoInputs.cache
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.AssemblyInfo.cs
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.csproj.CoreCompileInputs.cache
+C:\Users\210005\Documents\Porn\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.exe
+C:\Users\210005\Documents\Porn\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.deps.json
+C:\Users\210005\Documents\Porn\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.runtimeconfig.json
+C:\Users\210005\Documents\Porn\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.dll
+C:\Users\210005\Documents\Porn\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.pdb
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.dll
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\refint\Melvor Calculator.dll
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.pdb
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.genruntimeconfig.cache
+C:\Users\210005\Documents\Porn\Melvor Calculator\obj\Debug\net6.0-windows\ref\Melvor Calculator.dll
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.exe
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.deps.json
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.runtimeconfig.json
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.dll
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\bin\Debug\net6.0-windows\ref\Melvor Calculator.dll
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\bin\Debug\net6.0-windows\Melvor Calculator.pdb
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.csproj.AssemblyReference.cache
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor_Calculator.Form1.resources
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.csproj.GenerateResource.cache
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.AssemblyInfoInputs.cache
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.AssemblyInfo.cs
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.dll
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\ref\Melvor Calculator.dll
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.pdb
+C:\Users\Cooke\Documents\Melvor\Melvor Calculator\obj\Debug\net6.0-windows\Melvor Calculator.genruntimeconfig.cache
