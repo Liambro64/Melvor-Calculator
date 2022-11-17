@@ -104,7 +104,7 @@ namespace Melvor_Calculator
             }
             try
             {
-                timePerCompetion = (float)Convert.ToDouble(EPC.Text + e.KeyChar.ToString());
+                timePerCompetion = (float)Convert.ToDouble(TPC.Text + e.KeyChar.ToString());
                 CheckCalculation();
             }
             catch
@@ -170,10 +170,10 @@ namespace Melvor_Calculator
             CompletionChance = 100;
             try
             {
-                l5.Text = Calculation.FullCalculator(exp, targlev, expPerCompletion,  timePerCompetion, CompletionChance, out TrueExpPerSecond, out TotalCompletions,out float n, out float penis);
-                l5.Text = penis.ToString();
-                l6.Text = n.ToString();
-                l7.Text = TrueExpPerSecond.ToString();
+                l5.Text = Calculation.FullCalculator(exp, targlev, expPerCompletion,  timePerCompetion, CompletionChance, out TrueExpPerSecond,out float n, out float penis);
+                l5.Text = "Exp Required: "+penis.ToString();
+                l6.Text = "Completions required: "+n.ToString();
+                l7.Text = "True EXP per second: " + TrueExpPerSecond.ToString();
             }
             catch { }
         }

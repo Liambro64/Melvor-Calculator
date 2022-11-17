@@ -13,13 +13,14 @@ namespace Melvor_Calculator
             float L = TargetLevel;
 
             float TotalEXP = (float)(MathF.Pow(L, 2f) - L + 600f * ((MathF.Pow(2f, L / 7f) - MathF.Pow(2f, 1f / 7f)) / (MathF.Pow(2f, 1f / 7f) - 1f))) / 8;
-            T = TotalEXP;
-            print("Current EXP is: " + CurrentEXP);
+            
+            //("Current EXP is: " + CurrentEXP);
             TotalEXP -= CurrentEXP;
-            print("Target level: " + TargetLevel + "\nEXP needed to reach target level: " + MathF.Round(TotalEXP));
+            //print("Target level: " + TargetLevel + "\nEXP needed to reach target level: " + MathF.Round(TotalEXP));
+            T = TotalEXP;
             return TotalEXP;
         }
-        static float ExpPerSecondCalculator(float ExpPerCompletion, float SecondsPerCompletion, float CompletionRate, out float TEPS, out float NCR)
+        static float ExpPerSecondCalculator(float ExpPerCompletion, float SecondsPerCompletion, float CompletionRate, out float EXPPS, out float NCR)
         {
             float ExpPerSecond;
             if (SecondsPerCompletion == 1)
@@ -32,11 +33,12 @@ namespace Melvor_Calculator
             }
             print(ExpPerSecond);
             float NewCompletionRate = 1 / (CompletionRate / 100);
+            EXPPS = ExpPerSecond;
             NCR = NewCompletionRate;
             //1 over ___
             print("1\n-\n"+NewCompletionRate);
             float TrueExpPerSecond = ExpPerSecond / NewCompletionRate;
-            TEPS = TrueExpPerSecond;
+            //TEPS = TrueExpPerSecond;
             //print("Your 'true' exp per second " + TrueExpPerSecond + "/s");
             return TrueExpPerSecond;
         }
@@ -93,19 +95,19 @@ namespace Melvor_Calculator
                 GetInput2(out a, out b, out c);
             }
         }
-        public static string FullCalculator(float EL, float TL, float EGPC, float TPC, float CR, out float TEPS, out float TotalCompletions,out float NCR, out float TotalEXP)
+        public static string FullCalculator(float ExperienceLevel, float TargetLevel, float ExpGainPerCompletion, float TimePerCompletion, float CompletionRate, out float TEPS, out float TotalCompletions, out float TotalEXP)
         {
             float Time;
-            if (CR >= 0)
+            if (CompletionRate <= 0)
             {
-                CR = 100;
+                CompletionRate = 100;
             }
             //GetInput(out CL, out EL, out TL);
             //GetInput2(out EGPC, out TPC, out CR);
             TimeToGetLevelsCalculator(
-                ExpPerSecondCalculator(EGPC, TPC, CR, out TEPS, out NCR),
-                LevelCalculator(TL, EL, out TotalEXP),
-                TPC, out Time, out TotalCompletions);
+                ExpPerSecondCalculator(ExpGainPerCompletion, TimePerCompletion, CompletionRate, out TEPS, out float p),
+                LevelCalculator(TargetLevel, ExperienceLevel, out TotalEXP),
+                TimePerCompletion, out Time, out TotalCompletions);
 
             if (Time / 60 >= 1)
             {
